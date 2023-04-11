@@ -1,0 +1,40 @@
+/* css style for index.html odin-recipes website */
+
+html {
+	box-sizing: border-box;
+}
+
+header .logo {
+	width: 100px;
+	height: auto;
+	margin-left: 15px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom-style: groove;
+	border-color: grey;
+	border-width: 0.2px;
+}
+
+h1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	margin: 2px;
+	padding: 20px;
+}
+
+
